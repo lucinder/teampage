@@ -42,3 +42,8 @@ a {
 a:hover {
   background-color: gold;
 }
+
+ul li {
+  list-style-type: square;
+  margin: 5px;
+}
