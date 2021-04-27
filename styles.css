@@ -35,6 +35,10 @@ h2,h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #fa4454;
 }
+#hollowKnight {/*Simon added this*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:darkslategrey;
+}
 #mother3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: indianred;
