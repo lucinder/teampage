@@ -1,3 +1,6 @@
+body{
+ background: #444444; 
+}
 h1 {
   /* For h1 tag */
   color: indigo;
@@ -19,9 +22,9 @@ h1.title_border {
   border-style: solid;
   border-color: midnightblue;
 }
-h2 {
-  /* For h2 tag */
-  color: darkblue;
+h2,h3,p {
+  /* For h2, h3, and p tags */
+  color: ghostwhite;
 }
 
 #splatoon {
@@ -32,6 +35,14 @@ h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #fa4454;
 }
+#hollowKnight {/*Simon added this*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:darkslategrey;
+}
+#mother3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: indianred;
+}
 
 #hollowKnight {/*Simon added this*/
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -39,7 +50,7 @@ h2 {
 }
 
 a {
-  background-color: powderblue;
+  background-color: grey;
   transition: background-color 0.5s;
 }
 
