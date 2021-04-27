@@ -16,11 +16,10 @@ h1.title_border {
 }
 .border {
   /* For tags with the class "border" */
-  color: black;
   padding: 20px;
   border: 1px;
   border-style: solid;
-  border-color: midnightblue;
+  border-color: goldenrod;
 }
 h2,h3,p,pre {
   /* For h2, h3, pre, and p tags */
