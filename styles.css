@@ -1,26 +1,35 @@
-h1 {  /* For h1 tag */
-    color:indigo;
-    padding: 10px;
+h1 {
+  /* For h1 tag */
+  color: indigo;
+  padding: 10px;
 }
-h1.title_border { /* For h1 tags with the class "border" */
-    color:coral;
-    padding: 20px;
-    border: 3px;
-    border-style:solid;
-    border-color:brown;
+h1.title_border {
+  /* For h1 tags with the class "border" */
+  color: coral;
+  padding: 20px;
+  border: 3px;
+  border-style: solid;
+  border-color: brown;
 }
-.border { /* For tags with the class "border" */
-    color:black;
-    padding: 20px;
-    border: 1px;
-    border-style:solid;
-    border-color:midnightblue;
+.border {
+  /* For tags with the class "border" */
+  color: black;
+  padding: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: midnightblue;
 }
-h2 { /* For h2 tag */
-    color:darkblue;
+h2 {
+  /* For h2 tag */
+  color: darkblue;
 }
 
 #splatoon {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:mediumturquoise;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: mediumturquoise;
+}
+
+#valorant {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fa4454;
 }
