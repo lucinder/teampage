@@ -33,3 +33,12 @@ h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #fa4454;
 }
+
+a {
+  background-color: powderblue;
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  background-color: gold;
+}
