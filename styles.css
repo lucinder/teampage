@@ -44,6 +44,11 @@ h2,h3,p {
   color: indianred;
 }
 
+#hollowKnight {/*Simon added this*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:darkslategrey;
+}
+
 a {
   background-color: grey;
   transition: background-color 0.5s;
