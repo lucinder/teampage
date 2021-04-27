@@ -33,6 +33,11 @@ h2 {
   color: #fa4454;
 }
 
+#hollowKnight {/*Simon added this*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:darkslategrey;
+}
+
 a {
   background-color: powderblue;
   transition: background-color 0.5s;
