@@ -1,5 +1,5 @@
-body{
- background: #444444; 
+body {
+ background-color: #444444; 
 }
 h1 {
   /* For h1 tag */
@@ -22,8 +22,8 @@ h1.title_border {
   border-style: solid;
   border-color: midnightblue;
 }
-h2,h3,p {
-  /* For h2, h3, and p tags */
+h2,h3,p,pre {
+  /* For h2, h3, pre, and p tags */
   color: ghostwhite;
 }
 
