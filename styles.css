@@ -1,3 +1,6 @@
+body{
+ background: #444444; 
+}
 h1 {
   /* For h1 tag */
   color: indigo;
@@ -19,9 +22,9 @@ h1.title_border {
   border-style: solid;
   border-color: midnightblue;
 }
-h2 {
-  /* For h2 tag */
-  color: darkblue;
+h2,h3 {
+  /* For h1, h2, and p tags */
+  color: ghostwhite;
 }
 
 #splatoon {
@@ -32,9 +35,13 @@ h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #fa4454;
 }
+#mother3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: indianred;
+}
 
 a {
-  background-color: powderblue;
+  background-color: grey;
   transition: background-color 0.5s;
 }
 
