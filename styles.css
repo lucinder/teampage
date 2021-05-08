@@ -1,5 +1,5 @@
 body {
- background-color: #444444; 
+  background-color: #444444;
 }
 h1 {
   /* For h1 tag */
@@ -21,9 +21,17 @@ h1.title_border {
   border-style: solid;
   border-color: goldenrod;
 }
-h2,h3,p,pre {
+h2,
+h3,
+h6,
+h7,
+p {
   /* For h2, h3, pre, and p tags */
   color: ghostwhite;
+}
+blockquote {
+  color: ghostwhite;
+  font-size: medium;
 }
 
 #splatoon {
@@ -34,30 +42,26 @@ h2,h3,p,pre {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #fa4454;
 }
-#hollowKnight {/*Simon added this*/
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color:darkslategrey;
+#hollowKnight {
+  /*Simon added this*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: darkslategrey;
 }
 #mother3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: indianred;
 }
 
-#hollowKnight {/*Simon added this*/
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color:darkslategrey;
-}
-
-a {
-  background-color: grey;
-  transition: background-color 0.5s;
+#hollowKnight {
+  /*Simon added this*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: darkslategrey;
 }
 
 a:hover {
   background-color: gold;
 }
 
-ul li {
-  list-style-type: square;
-  margin: 5px;
+img {
+  width: 100%;
 }
