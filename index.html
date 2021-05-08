@@ -2,100 +2,170 @@
 <html lang="en-US">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Start Kwun's edit-->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- End of Bootstrap CSS -->
     <link rel="stylesheet" href="styles.css">
-    <style>
-        h4 {
-            color: blueviolet;
-        }
-    </style>
     <title>Favorite games</title>
 </head>
 
 <body>
     <h1 class="title_border">Team 7's Favorite Games!</h1>
     <br>
-    <!-- Kwun add a list and anchor here-->
+    <br>
+    <!-- Kwun add a Navigation bar and container here-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="d-flex flex-row-reverse bd-highlight">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-gradient">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#splatoon">
+                                    <h7>Rachel's favourite</h7>
+                                    <h6>Splatoon</h6>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#valorant">
+                                    <h7>Kwun's favourite</h7>
+                                    <h6>Valorant</h6>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#hollowKnight">
+                                    <h7>Simon's favorite game</h7>
+                                    <h6>Hollow Knight</h6>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mother3">
+                                    <h7>Sav's favourite</h7>
+                                    <h6>Mother 3</h6>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- end of kwun's edit -->
 
-    <ul>
-        <li><a href="#splatoon">Rachel's favourite game</a></li>
-        <br>
-        <li><a href="#valorant">Kwun's favourite game</a></li>
-        <br>
-        <li><a href="#hollowKnight">Simon's favorite game</a></li>
-        <br>
-        <li><a href="#mother3">Sav's favourite game</a></li>
+            <!--Rachel's edits-->
+            <!-- Kwun added a col here-->
+            <div class="col-xl-10">
+                <!-- end of kwun's edit-->
+                <h3>Rachel Kim <small>recommends...</small></h3>
+                <h2 id="splatoon">Splatoon 2</h2>
+                <!--Mark Comment: all attribute values should be in double-quotes so add quotes to width and height! Fix this for ALL the images on this page!-->
+                <img class="mx-auto d-block" src="splatoon_2.jpg" alt="Splatoon 2" width="960" height="540">
+                <blockquote style="font-family:'Times New Roman', Times, serif;" class="border">
+                    Although it looks like a kiddie's game, Splatoon 2 can be enjoyable for all ages. In this game, you
+                    play
+                    as an inkling or octoling who can use a variety of weapons to spray paint on your territory. You can
+                    use
+                    tools like paintbrushes, rollers, and machine guns to win the game against the other team. If you
+                    like
+                    multiplayer games, this is a great choice, as there are many stages and fun games modes that have
+                    personally
+                    kept me occupied for almost two thousand hours! This is a game exclusive to the switch though, but
+                    is worth
+                    checking out if you have that console!
+                </blockquote>
+                <br>
+                <!--Mark Comment: why does the horizontal rule have a text-align property?-->
+                <hr style="width:100%;margin-left:0">
+                <br>
+            </div>
+            <!--End of edit-->
 
-    </ul>
-    <!-- end of kwun's edit -->
+            <!-- Kwun add his game here-->
 
-    <!--Rachel's edits-->
-    <br>
-    <h3>Rachel Kim <small>recommends...</small></h3>
-    <h2 id="splatoon">Splatoon 2</h2>
-    <!--Mark Comment: all attribute values should be in double-quotes so add quotes to width and height! Fix this for ALL the images on this page!-->
-    <img src="splatoon_2.jpg" alt="Splatoon 2" width="960" height="540">
-    <pre style="font-family:'Times New Roman', Times, serif;" class="border">
-            Although it looks like a kiddie's game, Splatoon 2 can be enjoyable for all ages. In this game, you play
-            as an inkling or octoling who can use a variety of weapons to spray paint on your territory. You can use
-            tools like paintbrushes, rollers, and machine guns to win the game against the other team. If you like
-            multiplayer games, this is a great choice, as there are many stages and fun games modes that have personally
-            kept me occupied for almost two thousand hours! This is a game exclusive to the switch though, but is worth 
-            checking out if you have that console!
-        </pre>
-    <br>
-    <!--Mark Comment: why does the horizontal rule have a text-align property?-->
-    <hr style="width:100%;margin-left:0">
-    <br>
-    <!--End of edit-->
+            <div class="col-xl-10">
+                <h3>Kwun Lin's <small>current favourite</small></h3>
+                <h2 id="valorant">Valorant</h2>
+                <div class="d-flex align-items-center">
+                    <img src="valorantimg.jpg" alt="Valorant">
+                </div>
+                <blockquote style="font-family:'Times New Roman', Times, serif;" class="border">
+                    Valorant is a riot's new 5v5 character-based tactical FPS where precise gunplay meets unique agent
+                    abilities.
+                    This is is a team-based tactical shooter and first-person shooter set in the near future. Players
+                    play as one of a set of agents,
+                    characters designed based on several countries and cultures around the world.
+                    In the main game mode, players are assigned to either the attacking or defending team with each team
+                    having five players
+                    on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability
+                    that requires charging
+                    through kills, deaths, or spike actions.
+                </blockquote>
+            </div>
+            <!-- end of kwun's edit -->
+            <br>
+            <hr style="width:100%;margin-left:0">
+            <br>
+            <!-- Simon added his game here-->
+            <!-- Kwun added a col here-->
+            <div class="col-xl-10">
+                <!-- end of Kwun's edit-->
+                <h3>Simon Vincini's <small>recommendation</small></h3>
+                <h2 id="hollowKnight">Hollow Knight</h2>
+                <div class="d-flex align-items-center">
+                    <img src="hollowKnight.jpg" alt="Hollow Knight">
+                </div>
+                <blockquote style="font-family:'Times New Roman', Times, serif;" class="border">
+                    Hollow Knight is considered to be a Metroidvania title where most of the gameplay revolves around
+                    back tracking
+                    through the map, using new items and upgrades to traverse a little further each time.
+                    It's a very well designed game and has probably over 40 hours of content to discover and unlock with
+                    3 free dlcs making the game even more expansive.
+                    So if your itching for a platformer with puzzles, combat, secrets, difficulty, and bugs, then this
+                    might be the game for you!
+                </blockquote>
+            </div>
 
-    <!-- Kwun add his game here-->
-    <h3>Kwun Lin's <small>current favourite</small></h3>
-    <h2 id="valorant">Valorant</h2>
-    <img src="valorantimg.jpg" alt="Valorant" width="960" height="540">
-    <pre style="font-family:'Times New Roman', Times, serif;" class="border">
-            Valorant is a riot's new 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities. 
-            This is is a team-based tactical shooter and first-person shooter set in the near future. Players play as one of a set of agents, 
-            characters designed based on several countries and cultures around the world.
-            In the main game mode, players are assigned to either the attacking or defending team with each team having five players
-            on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging
-            through kills, deaths, or spike actions.
-    </pre>
-    <!-- end of kwun's edit -->
-    <br>
-    <hr style="width:100%;margin-left:0">
-    <br>
-    <!-- Simon added his game here-->
-    <h3>Simon Vincini's <small>recommendation</small></h3>
-    <h2 id="hollowKnight">Hollow Knight</h2>
-    <img src="hollowKnight.jpg" alt="Hollow Knight" width="960" height="540">
-    <pre style="font-family:'Times New Roman', Times, serif;" class="border">
-            Hollow Knight is considered to be a Metroidvania title where most of the gameplay revolves around back tracking
-            through the map, using new items and upgrades to traverse a little further each time. It's a very well designed game and has probably over 
-            40 hours of content to discover and unlock with 3 free dlcs making the game even more expansive. So if your itching for a platformer with puzzles, 
-            combat, secrets, difficulty, and bugs, then this might be the game for you!
-    </pre>
-    <!-- end of Simon's edits -->
-    <br>
-    <hr style="width:100%;margin-left:0">
-    <br>
-    <!-- Start of Sav's edit -->
-    <br>
-    <h3>Sav's <small>long-time favorite is</small></h3>
-    <h2 id="mother3">Mother 3</h2>
-    <img src="mother3.png" alt="Mother 3" width="960" height="540">
-    <pre style="font-family:'Times New Roman', Times, serif;" class="border">
-            The third installment in the Mother/Earthbound series, Mother 3 requires no playthrough of the previous two games to understand its story,
-            though many elements do derive from the previous game in the series, Earthbound. As a story-driven RPG with some rhythm game elements,
-            quirky enemies, gorgeous pixel-art landscapes, and a deep dive into the devastating effects of corporate annexation on independent small nations,
-            Mother 3 holds up to this day as one of the most well-written, beautiful 2D RPGs of all time.
-    </pre>
-    <img src="mother3-2.png" alt="A look at Mother 3's characters" width="960" height="240">
-    <pre style="font-family:'Times New Roman', Times, serif;" class="border">
-            Though there is no official english translation of the game, the unofficial fan-translated patch used in playthroughs by popular streamers
-            such as Vinesauce can be downloaded <a href="http://mother3.fobby.net/">here</a>. This GBA game is a rare find in the west, but it's well
-            worth checking out either way.
-    </pre>
-    <!--End of edit-->
+            <!-- end of Simon's edits -->
+            <br>
+            <hr style="width:100%;margin-left:0">
+            <br>
+            <!-- Start of Sav's edit -->
+            <br>
+            <!-- Kwun added a col here-->
+            <div class="col-xl-10">
+                <!-- end of Kwun's edit-->
+                <h3>Sav's <small>long-time favorite is</small></h3>
+                <h2 id="mother3">Mother 3</h2>
+                <div class="d-flex align-items-center">
+                    <img src="mother3.png" alt="Mother 3">
+                </div>
+                <blockquote style="font-family:'Times New Roman', Times, serif;" class="border">
+                    The third installment in the Mother/Earthbound series, Mother 3 requires no playthrough of the
+                    previous two games to understand its story,
+                    though many elements do derive from the previous game in the series, Earthbound. As a story-driven
+                    RPG with some rhythm game elements,
+                    quirky enemies, gorgeous pixel-art landscapes, and a deep dive into the devastating effects of
+                    corporate annexation on independent small nations,
+                    Mother 3 holds up to this day as one of the most well-written, beautiful 2D RPGs of all time.
+                </blockquote>
+                <img class="mx-auto d-block" src="mother3-2.png" alt="A look at Mother 3's characters" width="960"
+                    height="340">
+
+                <div class="d-flex align-items-center">
+                    <img src="mother3-2.png" alt="A look at Mother 3's characters">
+                </div>
+                <blockquote style="font-family:'Times New Roman', Times, serif;" class="border">
+                    Though there is no official english translation of the game, the unofficial fan-translated patch
+                    used in playthroughs by popular streamers
+                    such as Vinesauce can be downloaded <a href="http://mother3.fobby.net/">here</a>. This GBA game is a
+                    rare find in the west, but it's well
+                    worth checking out either way.
+                </blockquote>
+            </div>
+        </div>
+        <!--End of edit-->
 </body>
 
 </html>
