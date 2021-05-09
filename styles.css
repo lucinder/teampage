@@ -45,7 +45,7 @@ blockquote {
 #hollowKnight {
   /*Simon added this*/
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: darkslategrey;
+  color: rgb(0, 0, 0);
 }
 #mother3 {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -55,7 +55,7 @@ blockquote {
 #hollowKnight {
   /*Simon added this*/
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: darkslategrey;
+  color: rgb(0, 0, 0);
 }
 
 a:hover {
