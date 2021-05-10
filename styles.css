@@ -1,5 +1,6 @@
 body {
   background-color: #444444;
+  
 }
 h1 {
   /* For h1 tag */
@@ -8,18 +9,21 @@ h1 {
 }
 h1.title_border {
   /* For h1 tags with the class "border" */
-  color: coral;
+  color: white;
   padding: 20px;
-  border: 3px;
-  border-style: solid;
-  border-color: brown;
+  border: 3px whitesmoke solid;
+  border-radius:7px;
+  text-align:center;
+  margin:20px;
 }
+
 .border {
   /* For tags with the class "border" */
   padding: 20px;
-  border: 1px;
+  border: 3px;
+  border-radius: 10px;
   border-style: solid;
-  border-color: goldenrod;
+  border-color: white;
 }
 h2,
 h3,
@@ -29,6 +33,13 @@ p {
   /* For h2, h3, pre, and p tags */
   color: ghostwhite;
 }
+
+hr {
+  color:white;
+  height:5px;
+  width:100%;
+}
+
 blockquote {
   color: ghostwhite;
   font-size: medium;
@@ -63,5 +74,6 @@ a:hover {
 }
 
 img {
+  margin:1%; 
   width: 100%;
 }
