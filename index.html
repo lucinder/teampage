@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <!-- End of Bootstrap CSS -->
+    <!--Mark's Comment 5/16: You can add the script lines to the end of the document right before the closing /body tag.-->
     <!-- Bootstrap scripts
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -22,6 +23,7 @@
     <br>
     <br>
     <!-- Kwun add a Navigation bar and container here-->
+    <!--Mark's Comment 5/16: You all have a container and row defined here, which tells Bootstrap that you're going to use its grid system. Then you have a col-md-8 which means this first column in this one row is 8 columns wide (out of Bootstrap's 12 column grid system), but then the next div in this row is a 10-wide column way down in line 112, which doesn't make sense since that's over 12. In fact, you then keep adding more columns that are 10 wide for each of you, which makes for many more columns than 12! To fix this, you want to either move the navbar out of the grid, so before line 28, or make it occupy its own row, which is what I think you were trying to do. If you want to keep it 2/3 of the screen width, add divs with col-md-2 below and after it. Then CLOSE the row with a closing /div tag. Then start a NEW row for each student's work, which if you want to be 10 wide, you'd need columns that are just one column wide before and after those divs. Make sense?-->
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -107,6 +109,7 @@
             End of carousel-->
 
             <!--Rachel's edits-->
+            <!--Mark's Comment 5/16: BTW, if you're using md as the screen width to consider for the navbar, it may be a little weird to use xl here since you're basically telling the web browser to stack the columns at different screen widths.-->
             <div class="col-xl-10">
                 <h3>Rachel Kim <small>recommends...</small></h3>
                 <h2 id="splatoon">Splatoon 2</h2>
@@ -142,6 +145,7 @@
             <div class="col-xl-10">
                 <h3>Kwun Lin's <small>current favourite</small></h3>
                 <h2 id="valorant">Valorant</h2>
+                <!--Mark's Comment 5/16: the d-flex class in Bootstrap declares that this div is a flexbox. Was that intentional?-->
                 <div class="d-flex align-items-center">
                     <img src="valorantimg.jpg" class="mx-auto" alt="Valorant">
                 </div>
