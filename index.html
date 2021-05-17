@@ -23,10 +23,19 @@
     <br>
     <br>
     <!-- Kwun add a Navigation bar and container here-->
-    <!--Mark's Comment 5/16: You all have a container and row defined here, which tells Bootstrap that you're going to use its grid system. Then you have a col-md-8 which means this first column in this one row is 8 columns wide (out of Bootstrap's 12 column grid system), but then the next div in this row is a 10-wide column way down in line 112, which doesn't make sense since that's over 12. In fact, you then keep adding more columns that are 10 wide for each of you, which makes for many more columns than 12! To fix this, you want to either move the navbar out of the grid, so before line 28, or make it occupy its own row, which is what I think you were trying to do. If you want to keep it 2/3 of the screen width, add divs with col-md-2 below and after it. Then CLOSE the row with a closing /div tag. Then start a NEW row for each student's work, which if you want to be 10 wide, you'd need columns that are just one column wide before and after those divs. Make sense?-->
+    <!--Mark's Comment 5/16: You all have a container and row defined here, which tells Bootstrap that you're going to use its grid system. 
+        Then you have a col-md-8 which means this first column in this one row is 8 columns wide (out of Bootstrap's 12 column grid system), 
+        but then the next div in this row is a 10-wide column way down in line 112, which doesn't make sense since that's over 12. 
+        In fact, you then keep adding more columns that are 10 wide for each of you, which makes for many more columns than 12! 
+        To fix this, you want to either move the navbar out of the grid, so before line 28, or make it occupy its own row, which is what I think you were trying to do. 
+        If you want to keep it 2/3 of the screen width, add divs with col-md-2 below and after it. Then CLOSE the row with a closing /div tag. 
+        Then start a NEW row for each student's work, which if you want to be 10 wide, you'd need columns that are just one column wide before and after those divs. 
+        Make sense?-->
+
+    <!--Kwun update on 5/17. I made the navbar and each student's work to have its own rows-->
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-10">
                 <div class="d-flex flex-row-reverse bd-highlight">
                     <nav class="navbar navbar-expand-lg navbar-light bg-gradient">
                         <ul class="navbar-nav">
@@ -58,8 +67,10 @@
                     </nav>
                 </div>
             </div>
-            <!-- end of kwun's edit -->
-            <!-- Sav tried to add a carousel to preview the game images but it didn't work so it's commented out now
+        </div>
+
+        <!-- end of kwun's edit -->
+        <!-- Sav tried to add a carousel to preview the game images but it didn't work so it's commented out now
             <div id="gamesCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#gamesCarousel" data-slide-to="0" class="active"></li>
@@ -108,9 +119,11 @@
             </div>
             End of carousel-->
 
-            <!--Rachel's edits-->
-            <!--Mark's Comment 5/16: BTW, if you're using md as the screen width to consider for the navbar, it may be a little weird to use xl here since you're basically telling the web browser to stack the columns at different screen widths.-->
-            <div class="col-xl-10">
+        <!--Rachel's edits-->
+        <!--Mark's Comment 5/16: BTW, if you're using md as the screen width to consider for the navbar, it may be a little weird to use xl here since you're basically telling the web browser to stack the columns at different screen widths.-->
+        <!--Kwun update on 5/17, I change to md-10 here to match the size of navbar-->
+        <div class="row">
+            <div class="col-md-10">
                 <h3>Rachel Kim <small>recommends...</small></h3>
                 <h2 id="splatoon">Splatoon 2</h2>
                 <div class="mx-auto">
@@ -139,16 +152,18 @@
                 <hr> <!-- Rachel: Moved style to css sheet -->
                 <br>
             </div>
-            <!--End of edit-->
+        </div>
 
-            <!-- Kwun add his game here-->
-            <div class="col-xl-10">
+        <!--End of edit-->
+
+        <!-- Kwun add his game here-->
+        <div class="row">
+            <div class="col-md-10">
                 <h3>Kwun Lin's <small>current favourite</small></h3>
                 <h2 id="valorant">Valorant</h2>
                 <!--Mark's Comment 5/16: the d-flex class in Bootstrap declares that this div is a flexbox. Was that intentional?-->
-                <div class="d-flex align-items-center">
-                    <img src="valorantimg.jpg" class="mx-auto" alt="Valorant">
-                </div>
+                <!--Kwun update 5/17, I delete d-felx class here since the image is already in row-->>
+                <img src="valorantimg.jpg" class="mx-auto" alt="Valorant">
                 <blockquote style="font-family:'Times New Roman', Times, serif;" class="border">
                     Valorant is a riot's new 5v5 character-based tactical FPS where precise gunplay meets unique agent
                     abilities.
@@ -168,19 +183,24 @@
                         allowfullscreen>
                     </iframe>
                     <blockquote style="font-family:'Times New Roman', Times, serif;" class="border">
-                        The VALORANT Champions Tour is headed to Iceland! VCT Masters Stage 2 will take place in Reykjavík, 
-                        Iceland and will feature 10 of the top teams from around the world competing in a LAN environment for the first time!
+                        The VALORANT Champions Tour is headed to Iceland! VCT Masters Stage 2 will take place in
+                        Reykjavík,
+                        Iceland and will feature 10 of the top teams from around the world competing in a LAN
+                        environment for the first time!
                     </blockquote>
                 </div>
 
             </div>
-            <div style="padding-bottom:3%"></div> <!-- Rachel: to make the spacing even-ish -->
-            <!-- end of kwun's edit -->
-            <br>
-            <hr>
-            <br>
-            <!-- Simon added his game here-->
-            <div class="col-xl-10">
+        </div>
+
+        <div style="padding-bottom:3%"></div> <!-- Rachel: to make the spacing even-ish -->
+        <!-- end of kwun's edit -->
+        <br>
+        <hr>
+        <br>
+        <!-- Simon added his game here-->
+        <div class="row">
+            <div class="col-md-10">
                 <h3>Simon Vincini's <small>recommendation</small></h3>
                 <h2 id="hollowKnight">Hollow Knight</h2>
                 <div class="d-flex align-items-center">
@@ -210,14 +230,16 @@
 
             </div>
             <div style="padding-bottom:4%"></div> <!-- Rachel: to make the spacing even-ish -->
+        </div>
 
-            <!-- end of Simon's edits -->
-            <br>
-            <hr>
-            <br>
-            <!-- Start of Sav's edits -->
-            <br>
-            <div class="col-xl-10">
+        <!-- end of Simon's edits -->
+        <br>
+        <hr>
+        <br>
+        <!-- Start of Sav's edits -->
+        <br>
+        <div class="row">
+            <div class="col-md-10">
                 <h3>Sav's <small>long-time favorite is</small></h3>
                 <h2 id="mother3">Mother 3</h2>
                 <div class="d-flex align-items-center">
@@ -239,22 +261,27 @@
                 <div class="media">
                     <div class="media-body">
                         <blockquote style="font-family:'Times New Roman', Times, serif;" class="border">
-                        Though there is no official english translation of the game, the unofficial
-                        fan-translated patch used in playthroughs by popular streamers such as
-                        the Vinesauce playthrough seen here can be downloaded <a href="http://mother3.fobby.net/">here</a>.
-                        This GBA game is a rare find in the west, but it's well worth checking
-                        out either way.
+                            Though there is no official english translation of the game, the unofficial
+                            fan-translated patch used in playthroughs by popular streamers such as
+                            the Vinesauce playthrough seen here can be downloaded <a
+                                href="http://mother3.fobby.net/">here</a>.
+                            This GBA game is a rare find in the west, but it's well worth checking
+                            out either way.
                         </blockquote>
                     </div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/D69sojnGWdo" 
-                            title="YouTube video player" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/D69sojnGWdo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
                     </iframe>
                 </div>
             </div>
         </div>
-        <!--End of edit-->
+    </div>
+
+    <!--End of edit-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
