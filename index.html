@@ -16,16 +16,16 @@
     End of Bootstrap scripts -->
     <link rel="stylesheet" href="styles.css">
     <title>Favorite games</title>
-    <script>
+    <script> // JS PROJECT SECTION
         let favoritesongs = new Array();
         // Array item format: "Artist- Song/Album Name", "Song Link"
         // SAV'S SONGS START HERE
-        favoritesongs[0] = ('ミラクルミュージカル- Hawaii Part II', 'https://www.youtube.com/watch?v=zkU5JYX-bIc&list=PLX-KY8nhnd1Lbh76AnE3c3tX36rieoxE1');
-        favoritesongs[1] = ('Jack Stauber- Buttercup','https://www.youtube.com/watch?v=eYDI8b5Nn5s');
-        favoritesongs[2] = ('Wilbur Soot- Since I Saw Vienna','https://www.youtube.com/watch?v=wjmgUWmq3fI');
-        favoritesongs[3] = ('Petscop OST- level2','https://www.youtube.com/watch?v=YF0KsNE4d4M');
-        favoritesongs[4] = ('Oliver Buckland- Vacillate','https://www.youtube.com/watch?v=wQVeozekdYg');
-        favoritesongs[5] = ('METAROOM- Temptation Stairway','https://www.youtube.com/watch?v=H69Z3LXDNto');
+        favoritesongs[0] = new Array('ミラクルミュージカル- Hawaii Part II', 'https://www.youtube.com/watch?v=zkU5JYX-bIc&list=PLX-KY8nhnd1Lbh76AnE3c3tX36rieoxE1');
+        favoritesongs[1] = new Array('Jack Stauber- Buttercup','https://www.youtube.com/watch?v=eYDI8b5Nn5s');
+        favoritesongs[2] = new Array('Wilbur Soot- Since I Saw Vienna','https://www.youtube.com/watch?v=wjmgUWmq3fI');
+        favoritesongs[3] = new Array('Petscop OST- level2','https://www.youtube.com/watch?v=YF0KsNE4d4M');
+        favoritesongs[4] = new Array('Oliver Buckland- Vacillate','https://www.youtube.com/watch?v=wQVeozekdYg');
+        favoritesongs[5] = new Array('METAROOM- Temptation Stairway','https://www.youtube.com/watch?v=H69Z3LXDNto');
         // SAV'S SONGS END HERE
         function generateSong(){
          let index = (Math.random()*favoritesongs.length)|0; // Select a random song index from the array
