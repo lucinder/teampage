@@ -35,6 +35,14 @@
         favoritesongs[10] = new Array('Smash Mouth - All Star','https://www.youtube.com/watch?v=dQw4w9WgXcQ');
         favoritesongs[11] = new Array('Shintaro Sakamoto - The Feeling of Love','https://www.youtube.com/watch?v=jgh69V2rHh4');
         //Simon's Songs end here
+        //Rachel's songs start
+        favoritesongs[12] = new Array('kokonoku - fish in the sea','https://www.youtube.com/watch?v=b_UUeEUbyC4')
+        favoritesongs[13] = new Array('kokonoku - MARCOS','https://www.youtube.com/watch?v=ulPSX-BczwU')
+        favoritesongs[14] = new Array('Hylics 2 OST - Fancy Meat Computer','https://www.youtube.com/watch?v=lL6C3AQ9Fc4&list=PLjS2ZOuRnocSFNqucWUEJWSJiNQWhNZ2s&index=20')
+        favoritesongs[15] = new Array('헤이즈 (Heize) - Jenga (Feat. Gaeko)','https://www.youtube.com/watch?v=uw_HR9jIJww&list=PLmSeR5iN02l2Mq9e4Z3Ruu_vohNHJ8CiK&index=12')
+        favoritesongs[16] = new Array('COCAINEJESUS - Between us','https://www.youtube.com/watch?v=1PPP9fzyyW8&list=PLmSeR5iN02l2Mq9e4Z3Ruu_vohNHJ8CiK&index=43')
+        favoritesongs[17] = new Array('potsu - just friends','https://www.youtube.com/watch?v=rLHqnOq4wEQ')
+        //Rachel's song end
         function generateSong(){
          let index = (Math.random()*favoritesongs.length)|0; // Select a random song index from the array
          document.getElementById("result").innerHTML = '<a href=\"'+favoritesongs[index][1]+'\">'+favoritesongs[index][0]+'</a>'; // Show the result text as the song name, which links to the song
