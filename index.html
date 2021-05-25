@@ -27,6 +27,14 @@
         favoritesongs[4] = new Array('Oliver Buckland- Vacillate','https://www.youtube.com/watch?v=wQVeozekdYg');
         favoritesongs[5] = new Array('METAROOM- Temptation Stairway','https://www.youtube.com/watch?v=H69Z3LXDNto');
         // SAV'S SONGS END HERE
+        // Simon's Songs start here
+        favoritesongs[6] = new Array('Exuma - You Dont Know Whats Going On','https://www.youtube.com/watch?v=WG-bwgLxXEI');
+        favoritesongs[7] = new Array('Ween - Tastes Good On Th Bun','https://www.youtube.com/watch?v=Nm2DVfOzEig');
+        favoritesongs[8] = new Array('100 Gecs - 800db cloud', 'https://www.youtube.com/watch?v=B6tFRzt-QvA');
+        favoritesongs[9] = new Array('Weatherday - Come In','https://www.youtube.com/watch?v=wWPVyXbO6Kc');
+        favoritesongs[10] = new Array('Smash Mouth - All Star','https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+        favoritesongs[11] = new Array('Shintaro Sakamoto - The Feeling of Love','https://www.youtube.com/watch?v=jgh69V2rHh4');
+        //Simon's Songs end here
         function generateSong(){
          let index = (Math.random()*favoritesongs.length)|0; // Select a random song index from the array
          document.getElementById("result").innerHTML = '<a href=\"'+favoritesongs[index][1]+'\">'+favoritesongs[index][0]+'</a>'; // Show the result text as the song name, which links to the song
