@@ -52,6 +52,15 @@
             let index = (Math.random() * favoritesongs.length) | 0; // Select a random song index from the array
             document.getElementById("result").innerHTML = '<a href=\"' + favoritesongs[index][1] + '\">' + favoritesongs[index][0] + '</a>'; // Show the result text as the song name, which links to the song
         }
+
+        /* Rachel added button */
+        var btn = document.getElementById('btn')
+
+        btn.addEventListener('click', function(){
+        alert("Don't worry! I'm just a harmless notification.");
+        });
+        /* end of edit */
+
     </script>
 </head>
 
@@ -59,6 +68,8 @@
 
 <body>
     <h1 class="title_border">Team 7's Favorite Games!</h1>
+    /* Rachel added button */
+    <button id="btn">Press me</button>
     <br>
     <br>
     <!-- Kwun add a Navigation bar and container here-->
